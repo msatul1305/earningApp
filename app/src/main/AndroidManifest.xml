@@ -11,7 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainMenuActivity"></activity>
+        <activity android:name=".WatchAndLearn"></activity>
+        <activity android:name=".GetPayment" />
+        <activity android:name=".EarningTwo" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6447107122173317~6608858650" />
+
+        <activity android:name=".EarningOne" />
+        <activity android:name=".profileActivity" />
+        <activity android:name=".MainMenuActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
